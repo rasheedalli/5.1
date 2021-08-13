@@ -1,0 +1,12 @@
+(define (maxValueFun list)
+      lst maxValue  ; declare a list
+      (let ((i 0))    ; start loop from zero                
+      (while-proc                     
+        (lambda () (< i list.size))   
+            (if (> ((list) i 0) ((list) i 1))   ; find max value 
+                (set! (maxValue i) ((list) i 0))     ; then save max value
+                (set! (maxValue i) ((list) i 1)) 
+            (if (> (maxValue i) ((list) i 2))  
+                (set! (s i) ((list) i 2))     
+                   
+          (set! i (add1 i))))) ; increment i 
