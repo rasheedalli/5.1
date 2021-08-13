@@ -1,0 +1,9 @@
+(define (avgValuesFun list)
+      lst avgValues ; declare a list
+      (let ((i 0))    ; start loop from zero                  
+      (while-proc                     
+        (lambda () (< i list.size))       
+                    (set! avgValues i (+ ((list) i 0) ((list) i 1)))    // sum row values of matrix
+                    (set! avgValues i (+ list1 i (list) i 3)))   ; find and save each row's average value
+
+          (set! i (add1 i)))))
