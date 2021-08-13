@@ -1,0 +1,8 @@
+(define (wordCounts list) ; function to find no of words in string
+  (let loop ((lst list) ; loop through the list
+             (acc '()))
+    (if (null? list)
+        acc
+        (let ((tail <?1?>))
+          (set-cdr! <?2?> <?3?>)
+          (loop tail list))))) 
