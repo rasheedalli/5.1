@@ -1,0 +1,8 @@
+(define (reverse list) ; function to reverse a list
+  (let loop ((lst list) 
+             (acc '()))
+    (if (null? list) 
+        acc
+        (let ((tail <?1?>))
+          (set-cdr! <?2?> <?3?>) ; reversing the list and saving it
+          (loop tail list))))) 
